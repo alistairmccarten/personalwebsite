@@ -1,0 +1,53 @@
+body{
+    font-family:'Source Code Pro', monospace;
+    color: #444444;
+    margin:40px auto;
+    max-width:560px;
+    padding:0 10px; 
+    background-color: #222222;
+    color: white; 
+  }
+  li {
+    list-style-type: none;
+  }
+  .Dino{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+  a{
+    color:#00eb5a; 
+  }
+  .email{
+    text-align: center;
+  }
+  .typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 4s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+  }
+  
+  @keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 60% 
+    }
+  }
+  
+  @keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #00eb5a; 
+    }
+  }
+  
