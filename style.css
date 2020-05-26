@@ -23,7 +23,7 @@ a{
 .typewriter-text {
   display: inline-block;
   overflow: hidden;
-  animation: typing 4s steps(30, end), blink .75s step-end infinite;
+  animation: typing 2s steps(30, end), blink .75s step-end infinite;
   white-space: nowrap;
   font-size: 30px;
   font-weight: 700;
@@ -31,12 +31,21 @@ a{
   box-sizing: border-box;
 }
 
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
 @keyframes typing {
   from { 
       width: 0% 
   }
   to { 
-      width: 60% 
+      width: 50% 
   }
 }
 
