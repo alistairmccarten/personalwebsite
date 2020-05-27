@@ -23,7 +23,7 @@ a{
 .typewriter-text {
   display: inline-block;
   overflow: hidden;
-  animation: typing 2s steps(30, end), blink .75s step-end infinite;
+  animation: typing 5s steps(30, end), blink .75s step-end infinite;
   white-space: nowrap;
   font-size: 30px;
   font-weight: 700;
@@ -48,7 +48,7 @@ a{
       width: 0% 
   }
   to { 
-      width: 55% 
+      width: 100% 
   }
 }
 
