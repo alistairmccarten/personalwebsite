@@ -30,6 +30,9 @@ a{
   border-right: 4px solid orange;
   box-sizing: border-box;
 }
+.social {
+  text-align: center;
+}
 
 @keyframes pulse {
   0% {
